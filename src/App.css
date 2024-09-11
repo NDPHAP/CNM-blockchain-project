@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.modern-button {
+  background: linear-gradient(50deg, #800000, #008080);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modern-button:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.sell-button {
+  background: linear-gradient(50deg, #8B4513, #C71585);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sell-button:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
